@@ -1,0 +1,23 @@
+const TagButton = ({title, children}) => {
+
+  <div>
+    {title == null || title == "" ?(
+      <div></div>
+    ) : (
+      <button className='tagButton'>
+      {title}
+      {children}
+      </button>
+
+    )};
+     
+
+  
+
+  </div>
+  
+    
+
+};
+
+export default TagButton
